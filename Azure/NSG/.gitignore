@@ -1,0 +1,42 @@
+# Local .terraform directories
+**/.terraform/*
+!.terraform/*.tfstate
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Tofu/Terraform plan output
+*.tfplan
+
+# Sensitive variable overrides
+*.tfvars
+*.tfvars.json
+
+# Ignore override files that are not meant to be versioned
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# CLI configuration files
+.terraformrc
+terraform.rc
+.tofurc
+tofu.rc
+
+# IDE/Editor-specific files
+.vscode/
+.idea/
+*.swp
+*.bak
+*.log
+*.tmp
+
+# System-specific
+.DS_Store
+Thumbs.db
