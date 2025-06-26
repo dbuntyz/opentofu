@@ -28,3 +28,8 @@ variable "nsg_name" {
   type        = string
   default     = "default-nsg"
 }
+
+variable "tags" {
+  description = "Tags to be applied to resources"
+  type        = map(string)
+}
